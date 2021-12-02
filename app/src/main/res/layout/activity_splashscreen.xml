@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+
+    >
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="454dp"
+        android:backgroundTint="#FF8A80"
+        android:onClick="btn1AREA_OF_SQUARE"
+        android:text="AREA OF SQUARE " />
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="238dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="349dp"
+        android:backgroundTint="#FF8A80"
+        android:onClick="btn2AREA_OF_RECTANGLE"
+        android:text="AREA_OF_RECTANGLE" />
+
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="351dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="231dp"
+        android:backgroundTint="#FF8A80"
+        android:onClick="btn3AREA_OF_CIRCLE"
+        android:text="AREA OF  CIRCLE"
+        />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="472dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="116dp"
+        android:backgroundTint="#FF8A80"
+        android:onClick="btn4AREA_OF_TRIANGLE"
+        android:text="AREA OF TRIANGLE" />
+</RelativeLayout>
